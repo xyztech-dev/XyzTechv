@@ -1,0 +1,30 @@
+/* XYZTECH design tokens. Change colours, fonts and spacing here only. */
+:root {
+  /* Brand colours */
+  --black: #05070D;
+  --navy: #0A1226;
+  --navy-2: #0F1D3D;
+  --blue: #2F6BFF;
+  --blue-hi: #6C9BFF;
+  --white: #F4F7FF;
+  --muted: #9BA8C7;
+  --line: rgba(125, 155, 230, .16);
+
+  /* One accent per creative universe (used on their pages and cards) */
+  --u-crow: #8B6CFF;
+  --u-guardians: #F2B63D;
+  --u-void: #FF7A45;
+
+  /* Type */
+  --display: 'Archivo', system-ui, sans-serif;
+  --body: 'Figtree', system-ui, sans-serif;
+  --fs-2: clamp(1.35rem, 2.4vw, 1.75rem);
+  --fs-3: clamp(1.9rem, 4.2vw, 3rem);
+  --fs-hero: clamp(2.9rem, 12.5vw, 9rem);
+
+  /* Layout */
+  --r: 10px;
+  --gap: clamp(1.25rem, 3vw, 2rem);
+  --section: clamp(4rem, 9vw, 7rem);
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
